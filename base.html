@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ title if title else "SpendSmart - Expense Tracker" }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="brand">SpendSmart</div>
+
+    <div class="right">
+        {% if session.get("full_name") %}
+            <span class="user">Logged in as: {{ session.get("full_name") }}</span>
+            <a class="btn" href="{{ url_for('logout') }}">Logout</a>
+        {% endif %}
+    </div>
+</div>
+
+<div class="page">
+    {% block content %}{% endblock %}
+</div>
+
+</body>
+</html>
