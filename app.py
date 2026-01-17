@@ -468,8 +468,6 @@ def export_csv():
 
 # Main entry point of the program
 if __name__ == "__main__":
-    # Create database tables if they are not already present
     create_tables()
+    app.run(host="0.0.0.0", port=5000)
 
-    # Run flask server in debug mode (auto restart on code change)
-    app.run(debug=True)
