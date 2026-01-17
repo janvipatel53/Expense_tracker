@@ -20,4 +20,4 @@ Users can record daily expenses, manage upcoming expenses, and view spending sum
 - HTML, CSS
 - Chart.js
 
-## Project Structure
+
