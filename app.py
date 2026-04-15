@@ -15,9 +15,9 @@ from functools import wraps
 app = Flask(__name__)
 
 # session key
-app.secret_key = "your_secret_key_change_this"
+app.secret_key = "a8sd7f8a7sdf8a7sd8f7a8sdf7a8sdf7"
 
-# db file
+# database file
 DB_NAME = "expenses.db"
 
 
