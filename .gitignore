@@ -1,9 +1,0 @@
-# database files
-*.db
-
-# exported files
-*.csv
-
-# python cache
-__pycache__/
-*.pyc
