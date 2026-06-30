@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Smart Expense Tracker Web Application
 
 A full-stack expense management web application built using Flask and SQLite that enables users to track daily spending, manage upcoming expenses, monitor budgets, visualize spending trends, and interact with expense data through REST APIs.
@@ -21,7 +21,7 @@ A full-stack expense management web application built using Flask and SQLite tha
 - Chart.js
 
 
-=======
+
 # Expense Tracker Web App (Flask + SQLite)
 
 A web-based expense tracker built using Python Flask and SQLite.  
