@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Import Flask components needed for web app routing, templates, forms and sessions
 from flask import Flask, render_template, request, redirect, url_for, session, send_file, jsonify
 
@@ -607,7 +607,7 @@ if __name__ == "__main__":
 
     # Run flask server in debug mode (auto restart on code change)
     app.run(debug=True, use_reloader=False)
-=======
+
 # flask imports
 from flask import Flask, render_template, request, redirect, url_for, session, send_file
 
@@ -851,4 +851,4 @@ def add_expense():
     conn.close()
 
     return redirect(url_for("index"))
->>>>>>> 5a122ada1117d373b4a49847c86262758453aa6c
+
