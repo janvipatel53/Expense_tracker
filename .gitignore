@@ -1,0 +1,30 @@
+# Database files
+*.db
+*.sqlite3
+
+# Exported files
+*.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables / secrets
+.env
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Flask
+instance/
+.flaskenv
