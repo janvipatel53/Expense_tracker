@@ -600,13 +600,11 @@ def api_delete_expense(expense_id):
 
     return jsonify({"message": "Expense deleted successfully"})
 
+
+# Create database tables when application starts
+create_tables()
+
 # Main entry point of the program
 if __name__ == "__main__":
-    # Create database tables if they are not already present
-    create_tables()
-
-    # Run flask server in debug mode (auto restart on code change)
-    if __name__ == "__main__":
-        create_tables()
-        app.run(debug=False)
+    app.run(debug=False)
 
